@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawaing App | WebDev Basic Pratice</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <canvas id="board" width="768" height="768"></canvas>
+        <div id="controlPanel">
+            <div id="control_brush">
+                <input type="button" value="+" id="brush_size_inc">
+                <input type="text" id="brush_size_display" disabled>
+                <input type="button" value="-" id="brush_size_dec">
+            </div>
+            <div id="control_color">
+                <input type="color" id="brush_color_picker">
+            </div>
+            <div id="control_board">
+                <input type="button" id="canvas_clear_btn" value="X">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "WebDevBasicPratice",
+  "version": "1.0.0",
+  "description": "Mini (or single component) web projects using HTML, CSS &amp; JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamganeshagrawal/WebDevBasicPratice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamganeshagrawal/WebDevBasicPratice/issues"
+  },
+  "homepage": "https://github.com/iamganeshagrawal/WebDevBasicPratice#readme",
+  "devDependencies": {}
+}
